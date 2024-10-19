@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "6713bc75ea61cb2b47648b3c"
+  },
+  "name": "stand boot",
+  "image": "1729346677610_printing1.jpg",
+  "createdAt": {
+    "$date": "2024-10-19T14:04:37.944Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:04:37.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713bca5ea61cb2b47648b45"
+  },
+  "name": "Power Bank",
+  "image": "1729346725746_printing2.jpg",
+  "createdAt": {
+    "$date": "2024-10-19T14:05:25.756Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:05:25.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713bccdea61cb2b47648b48"
+  },
+  "name": "Multi Color 3D Printer",
+  "image": "1729346765303_printing3.jpg",
+  "createdAt": {
+    "$date": "2024-10-19T14:06:05.309Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:06:05.309Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713bce8ea61cb2b47648b4b"
+  },
+  "name": "Vase",
+  "image": "1729346792692_printing4.jpg",
+  "createdAt": {
+    "$date": "2024-10-19T14:06:32.698Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:06:32.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713bd25ea61cb2b47648b63"
+  },
+  "name": "Power Bank",
+  "image": "1729346853878_printing5.jpg",
+  "createdAt": {
+    "$date": "2024-10-19T14:07:33.882Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:07:33.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713bd47ea61cb2b47648b66"
+  },
+  "name": "Decorative Tree",
+  "image": "1729346887859_printing6.jpg",
+  "createdAt": {
+    "$date": "2024-10-19T14:08:07.899Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:08:07.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713bd90ea61cb2b47648b69"
+  },
+  "name": "Photo Board",
+  "image": "1729346960190_printing7.jpg",
+  "createdAt": {
+    "$date": "2024-10-19T14:09:20.213Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:09:20.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713bd9fea61cb2b47648b6c"
+  },
+  "name": "Stand",
+  "image": "1729346975868_printing8.jpg",
+  "createdAt": {
+    "$date": "2024-10-19T14:09:35.872Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:09:35.872Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713bdb7ea61cb2b47648b6f"
+  },
+  "name": "Blah",
+  "image": "1729346999979_printing9.jpg",
+  "createdAt": {
+    "$date": "2024-10-19T14:09:59.991Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:09:59.991Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "6709496dbff76160ed4ee63f"
+  },
+  "name": "omnia",
+  "email": "omnia@gmail.com",
+  "password": "$2b$10$Z15KeK5zPN2wFolSjC4waOt5p9QFbr8LYEhwtYQGSnFUnqQeb2H8S",
+  "phone": "12345678912",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2024-10-11T15:51:09.575Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T15:51:09.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6712a861da75ba4438b993ad"
+  },
+  "name": "ahmed",
+  "email": "ahmed@gmail.com",
+  "password": "$2b$10$eH3vzfNDr6q4U2mnpUWiTuTXXisFvHd1eg3bSDhNdvq744KZctypm",
+  "phone": "12345678912",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2024-10-18T18:26:41.597Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T03:08:30.138Z"
+  },
+  "__v": 0
+}]

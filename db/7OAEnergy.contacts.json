@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "6708e9a13f929475281d790e"
+  },
+  "name": "omnia",
+  "email": "omnia@gmail.com",
+  "message": "hello from postman",
+  "createdAt": {
+    "$date": "2024-10-11T09:02:25.384Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T09:02:25.384Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6708eaca57e9e2e16385b396"
+  },
+  "name": "ahmed",
+  "email": "ahmed@gmail.com",
+  "message": "ahmed hello from postman",
+  "createdAt": {
+    "$date": "2024-10-11T09:07:22.016Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T09:07:22.016Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6708f14501bd72d0cc2973e7"
+  },
+  "name": "ahmed",
+  "email": "ahmedMohamed@gmail.com",
+  "message": "ahmed mohamed hello from postman",
+  "createdAt": {
+    "$date": "2024-10-11T09:35:01.250Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T09:35:01.250Z"
+  },
+  "__v": 0
+}]

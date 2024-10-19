@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "67127eea334e987e94ae1768"
+  },
+  "name": "Elegoo Neptune 4 pro",
+  "image": "1729265386287_Neptune 4 pro.png",
+  "BuildVolume": "225mm L x 225mm W x 265mm H",
+  "mainboard": "Klipper ARM 64-bit quad-core high-speed Silent",
+  "PrintPrecision": "±0.1mm",
+  "NozzleDiameter": "0.4mm",
+  "SupportFilaments": "PLA, ABS, TPU, PETG, Nylon",
+  "PrintSpeed": "30~500mm/s 250mm/s is recommended",
+  "NozzleTemperature": "300°",
+  "HotBedTemperature": "110°",
+  "SlicingSoftware": "Cura",
+  "fileFormats": "STL, OBJ",
+  "InputVoltage": "100-120V/200-240V",
+  "MachineSize": "475 x 455 x 515mm",
+  "MachineWeight": "8.9kg",
+  "createdAt": {
+    "$date": "2024-10-18T15:29:46.312Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-18T15:29:46.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713c476ea61cb2b47648c08"
+  },
+  "name": "Creality Ender-3 V3 3D Printer",
+  "image": "1729348726741_Ender-3 V3.png",
+  "BuildVolume": "220*220*250mm",
+  "mainboard": "Klipper ARM 32-bit quad-core high-speed Silent",
+  "PrintPrecision": "±0.2mm",
+  "NozzleDiameter": "0.4mm",
+  "SupportFilaments": "PLA, ABS, TPU, PETG, Nylon",
+  "PrintSpeed": "30~500mm/s 250mm/s is recommended",
+  "NozzleTemperature": "300°",
+  "HotBedTemperature": "110°",
+  "SlicingSoftware": "Cura",
+  "fileFormats": "STL, OBJ",
+  "InputVoltage": "100-120V/200-240V",
+  "MachineSize": "475 x 455 x 515mm",
+  "MachineWeight": "8.9kg",
+  "createdAt": {
+    "$date": "2024-10-19T14:38:46.778Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T14:38:46.778Z"
+  },
+  "__v": 0
+}]

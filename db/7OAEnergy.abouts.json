@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6709216ea385dc2666ce2c06"
+  },
+  "image": "3d_Printing.png",
+  "desc": "We are a company specializing in the field of 3D printing. We\nprovide excellent printing and design services. We can help you\nprint and design any model in any field.\nWe can help you implement any project, whether a model at work or\na project for college, with the best materials on the market. We\nalso provide training courses on how to deal with 3D printing machines.",
+  "createdAt": {
+    "$date": "2024-10-11T13:00:30.937Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T04:20:10.370Z"
+  },
+  "__v": 0
+}]

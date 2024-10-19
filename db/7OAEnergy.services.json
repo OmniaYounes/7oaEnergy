@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "670c03b413fbc3755e2aed34"
+  },
+  "title": "3D Printing",
+  "image": "1728840628902_3d_6.jpg",
+  "desc": "3D printing turns every idea into something you can see and touch with your hands! Whether you want to design a prototype, or create a unique piece of art.\r\n\r\n3D printing will give you precision and details that are impossible to achieve with other methods.",
+  "createdAt": {
+    "$date": "2024-10-13T17:30:28.947Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T17:30:28.947Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670c05d113fbc3755e2aed4f"
+  },
+  "title": "Design and Print:",
+  "image": "1728841168805_3d_2.jpg",
+  "desc": "designing any model you need with all the required standards and we can improve your design.\r\n\r\nprinting very smooth surfaces - if required. And also printing rough surfaces.",
+  "createdAt": {
+    "$date": "2024-10-13T17:39:29.026Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T17:39:29.026Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670c096713fbc3755e2aed9a"
+  },
+  "title": "Repair of damaged files:",
+  "image": "1728842087875_3d_5.jpg",
+  "desc": "We always check the printability of the files sent and fix the defects if possible.\r\n\r\nYou will be informed of the repairs immediately before starting the implementation.",
+  "createdAt": {
+    "$date": "2024-10-13T17:54:47.919Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T17:54:47.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670c09a013fbc3755e2aed9f"
+  },
+  "title": "Technology and materials used:",
+  "image": "1728842144205_3d_4.jpg",
+  "desc": "Advise you on choosing the appropriate technology and materials that suit your design. Whether by phone or email, we also provide you with the latest designs.\r\n\r\nProviding the latest designs. And finding the right solution for you.\r\nEnsuring high quality and fast delivery.",
+  "createdAt": {
+    "$date": "2024-10-13T17:55:44.557Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T17:55:44.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670c0b5d13fbc3755e2aedcf"
+  },
+  "title": "Printers:",
+  "image": "1728842589203_3d_7.jpg",
+  "desc": "FDM Printers:\n-Neptune 4 Pro   /   -Neptune 4 Plus   /   -Neptune 4 Max\n\nResin Printers:\n-Mars 4 Ultra 9K   /   -Saturn 4 Ultra",
+  "createdAt": {
+    "$date": "2024-10-13T18:03:09.286Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T18:03:09.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670c0bc313fbc3755e2aedd8"
+  },
+  "title": "Materials used:",
+  "image": "1728842691662_3d_8.jpg",
+  "desc": "FDM-material:\r\nPLA+   /   ABS   /   LynX   /   Norton   /   HIPS\r\n\r\nSLA-materials:\r\nResin   /   Rusty Resin",
+  "createdAt": {
+    "$date": "2024-10-13T18:04:51.666Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T18:04:51.666Z"
+  },
+  "__v": 0
+}]

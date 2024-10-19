@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6713370e0a3c30366256e7c7"
+  },
+  "image": "1729312526717_3d_home_1.jpg",
+  "desc": "We are a company specializing in the field of 3D printing. We provide excellent printing and design services. We can help you print and design any model in any field.  We can help you implement any project, whether a model at work or a project for college, with the best materials on the market. We also provide training courses on how to deal with 3D printing machines.",
+  "sideLayer": "3D printing turns every idea into something you can see and touch with your hands! Whether you want to design a prototype, or create a unique piece of art.",
+  "createdAt": {
+    "$date": "2024-10-19T04:35:26.870Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T09:52:36.249Z"
+  },
+  "__v": 0,
+  "headerSideLayer": "3D Printing"
+}]
