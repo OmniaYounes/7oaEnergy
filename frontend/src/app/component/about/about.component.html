@@ -1,0 +1,55 @@
+<div class="aboutSection">
+  <div class="space bg-black"></div>
+  <div class="about">
+    <div class="section__1 bg-black px-4 px-md-5">
+      <div class="row">
+        <div class="col-2">
+          <div class="-xl-4">
+            7<br />O<br />A<br />E<br />N<br />E<br />R<br />G<br />Y<br />
+          </div>
+        </div>
+        <div class="col-10 pt-2">
+          <form>
+            <div class="form_item" *ngFor="let data of AllAbout">
+              <img [src]="getImagePath(data.image)" alt="3D Printing" />
+              <div class="content">
+                <p class="pe-xl-5 me-xl-5">{{data.desc}}
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="section__2">
+      <div class="container-xl p-3 m-auto">
+        <div
+          class="row section__2__about p-md-2 p-1 mt-5 rounded-2 scroll-element show"
+          *ngFor="let service of AllService"
+          >
+          <div class="col-md-6 col-3">
+            <div class="section__2__imgs">
+              <img [src]="getImageServicePath(service.image)"
+                class="rounded-3"
+                alt="3D printing"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-9 px-md-5 px-2 py-md-4 py-1">
+            <div class="layer px-md-3 px-2">
+              <div class="section__2__content">
+                <h2 class="pb-md-4 pb-1">{{service.title}}:</h2>
+                <p class="ps-2">
+                  {{service.desc}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

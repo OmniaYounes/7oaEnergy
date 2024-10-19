@@ -1,0 +1,62 @@
+<div class="contact__page">
+  <div class="spacee"></div>
+  <div class="contactUs">
+    <div class="layer__contact">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="input__field">
+            <h3 class="text-center">CONTACT US</h3>
+            <form [formGroup]="addContact" (ngSubmit)="sendContact()">
+              <input formControlName="name" type="text" placeholder="ENTER YOUR NAME ..." class="form-control py-2 px-4 w-100 border-0 my-4">
+              <input formControlName="email" type="email" placeholder="ENTER A VALID EMAIL ..." class="form-control py-2 px-4 w-100 border-0 mb-4">
+              <textarea
+              rows="4"
+              cols="50"
+              formControlName="message"
+              placeholder="YOUR MESSAGE ........."
+              class="form-control w-100 mb-4 border-0 py-2 px-4"
+              ></textarea>
+              <button type="submit" class="mt-2 px-3 py-1 w-100 rounded-pill">
+                SUPMIT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 p-5 ">
+          <div class="text__field">
+            <div class="cal ps-5 pt-3 pb-3">
+              <span>
+                <i class="fa-solid fa-phone pe-3"></i>
+                <span class="fw-bold fs-5">CALL US</span>
+              </span>
+              <p class="mt-2 ms-2 pt-1"> 1 (325) (658) (963) __  2(852) (741) (963) </p>
+            </div>
+            <div class="location ps-5 pt-4 pb-3">
+              <span>
+                <i class="fa-solid fa-location-dot pe-3"></i>
+                <span class="fw-bold fs-5">LOCATION</span>
+              </span>
+              <p class="mt-2 ms-2 pt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="clock ps-5 pt-4">
+              <span>
+                <i class="fa-solid fa-clock pe-3"></i>
+                <span class="fw-bold fs-5">BUSINESS HOURS</span>
+              </span>
+              <p class="mt-2 ms-2 pt-1"> Sun - Thurs ...................  9am - 6pm
+                <br>
+                Fri,Sat ....... closed
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="contact">
+      <img src="./contactUs/message.png">
+    </div>
+  </div>
+</div>
+
+

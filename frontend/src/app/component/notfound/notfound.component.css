@@ -1,0 +1,24 @@
+.container-fluid{
+  text-align: center;
+  height:92vh;
+}
+.space{
+  height: 100px
+}
+.notfound p{
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+}
+.notfound span{
+  font-size: 14.5px;
+}
+.notfound span a{
+  font-size: 20px;
+  text-decoration: none;
+  /* color: #FCCD2A; */
+  color: #FFC100;
+}
+.notfound i{
+  font-size: 100px;
+}

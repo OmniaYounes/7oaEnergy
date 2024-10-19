@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.space{
+  height: 100px;
+  background-color: #e8e8e8;
+}
+.printers{
+  background-color: #e8e8e8;
+}
+
+.printers .head h2{
+  top: 25%;
+  right: 35%;
+  font-size: 80px;
+}
+.printers .head .head__layer{
+  color: #0000001b;
+  font-size: 140px;
+}
+.printers .printer {
+  padding: 50px;
+}
+.printers .printer .printer__image img{
+  width: 80%;
+}
+.printers .printer .desc{
+  font-size: 17px;
+  color: #333;
+}
+.printers .printer .desc span{
+  font-size: 19px;
+  font-weight: bolder;
+  color: black;
+  padding-right: 10px;
+}
+

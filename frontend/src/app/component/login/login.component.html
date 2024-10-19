@@ -1,0 +1,38 @@
+<div class="space"></div>
+<div class="sign__in">
+  <div class="signIn__box">
+    <div class="signIn__data ">
+      <div class="admin d-flex">
+        <img src="login/logo_only.png" class="" alt="">
+        <h2 class="text-center">Admin Login</h2>
+      </div>
+      <form [formGroup]="logIn" (ngSubmit)="logIn.valid&&logInDate()">
+        <div class="email ps-4">
+          <label class="delEmail">EMAIL</label>
+          <br>
+          <input [class.is-valid]="logIn.controls.email.status=='VALID'" formControlName="email" type="email">
+        </div>
+        <div class="password password__input ps-4 mt-5">
+          <label class="delPassword">PASSWORD</label>
+          <br>
+          <div class="div__password">
+            <input [class.is-valid]="logIn.controls.password.status=='VALID'" formControlName="password" [type]="txt">
+            <div class="eye__dev">
+              <i (click)="hidePassword()" class="fa-solid fa-eye"></i>
+              <i (click)="showPassword()" class="fa-solid fa-eye-slash"></i>
+            </div>
+          </div>
+        </div>
+        <div class="LOGIN ps-4 mt-5">
+          <button [disabled]="logIn.invalid" [ngStyle]="logIn.invalid? isStyleValid : isStyleInValid"
+          class="btn fs-5"><span *ngIf="!isClicked"> LogIn </span> <span
+          *ngIf="isClicked">Wait..</span></button>
+          <div *ngIf="error" class="alert alert-danger text-center px-2 py-1" role="alert">
+            {{error}}
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>

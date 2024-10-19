@@ -1,0 +1,38 @@
+<div class="space"></div>
+<div class="printers">
+  <div class="container m-auto">
+    <div class="head text-center position-relative">
+      <div class="head__layer">printers</div>
+      <h2 class="text-black position-absolute">PRINTERS</h2>
+    </div>
+    <div class="printer">
+      <div class="row gy-5 py-4 mb-5 bg-light" *ngFor="let printer of AllPrinters">
+        <div class="col-md-6">
+          <div class="printer__image">
+            <img [src]="getImagePrinterPath(printer.image)" alt="3d printer" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="name my-3"><h2>{{printer.name}}</h2></div>
+          <div class="desc">
+            <ul>
+              <li><span>Build Volume: </span>{{printer.BuildVolume}}</li>
+              <li><span>Mainboard: </span>{{printer.mainboard}}</li>
+              <li><span>Print Precision: </span>{{printer.PrintPrecision}}</li>
+              <li><span>Nozzle Diameter: </span>{{printer.NozzleDiameter}}</li>
+              <li><span>Support Filaments: </span>{{printer.SupportFilaments}}</li>
+              <li><span>Print Speed: </span>{{printer.PrintSpeed}}</li>
+              <li><span>Nozzle Temperature: </span>{{printer.NozzleTemperature}}</li>
+              <li><span>Hot Bed Temperature: </span>{{printer.HotBedTemperature}}</li>
+              <li><span>Slicing Software: </span>{{printer.SlicingSoftware}}</li>
+              <li><span>File Formats: </span>{{printer.fileFormats}}</li>
+              <li><span>Input Voltage: </span>{{printer.InputVoltage}}</li>
+              <li><span>Machine Size: </span>{{printer.MachineSize}}</li>
+              <li><span>MachineWeight: </span>{{printer.MachineWeight}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

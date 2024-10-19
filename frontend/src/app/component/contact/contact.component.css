@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contact__page{
+background-color: #fff;
+position: relative;
+}
+.contact__page .spacee{
+  height: 110px;
+}
+.contact__page .contactUs{
+  background-image: url('/contactUs/curved-line-brown.png') ;
+  background-position:unset;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  background-size: 100% 100%;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact__page .layer__contact{
+  width: 60%;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px;
+}
+.contact__page .contact{
+  position: absolute;
+  top: 90px;
+  right: 110px;
+}
+.contact__page .layer__contact .text__field{
+  color: #693806;
+}
+.contact__page .layer__contact .text__field i {
+  color: #e7a865 ;
+}
+.contact__page .layer__contact .input__field{
+  border-right: 2px solid #cacaca;
+  background-color: #e3e3e3;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+  color: #693806;
+}
+.contact__page .layer__contact .input__field button{
+  background-color: #e7a865;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  box-shadow: 2px 2px 5px #292929;
+  color: #ddd;
+}
+.contact__page .layer__contact .input__field button:hover{
+  background-color: #dba061;
+}
+::placeholder{
+  color: #9c9c9c;
+  font-size: 13px;
+}

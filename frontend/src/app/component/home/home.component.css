@@ -1,0 +1,382 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: kompot;
+  src: url(../../../../public/font/Kompot\ Outline.otf);
+}
+@font-face {
+  font-family: kudryashev;
+  src: url(../../../../public/font/Kudryashev\ Display\ Sans.ttf);
+}
+.highligt{
+  color: #FFC100;
+}
+
+
+header{
+  margin-top: 50px;
+  padding-top: 50px;
+  height: 98vh;
+  overflow: hidden;
+}
+
+/* الصندوق الأصفر */
+.yellow__Box {
+  border: 8px solid #FFC100;
+  width: 16vw; /* نسبة العرض بالنسبة للشاشة */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  position: relative;
+}
+.logo__text {
+  background-color: black;
+  padding-left: 50px;
+  margin-left: 20px;
+  position: absolute;
+  top: 44%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.content {
+  text-align: left;
+}
+
+header .letter__space__none{
+  letter-spacing: -27px;
+}
+header .letter_7 , header .letter_A{
+  font-family: kompot, system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 140px;
+}
+
+header .letter_O{
+  font-family: kudryashev , system-ui;
+  font-size: 110px;
+}
+header .energy{
+  font-size: 85px;
+  letter-spacing: 25px;
+}
+header .font__size{
+  font-size: 17px;
+}
+header .spacial__txt{
+  color: #FFC100;
+}
+
+/* section about */
+
+section .about{
+  background: #e8e8e8;
+  overflow: hidden;
+}
+section .about .about__img {
+  position: relative;
+}
+section .about .about__img img{
+  width: 100%;
+  height: 100%;
+}
+section .about .about__img .img_layer{
+  width: 60%;
+  padding: 20px;
+  background-color: #ffbf0097;
+  position: absolute;
+  top: 60%;
+  left: 0;
+}
+section .about .about__content .head h2{
+  top: 22%;
+  right: 28%;
+  font-size: 60px;
+}
+section .about .about__content .head .head__layer{
+  color: #0000001b;
+  font-size: 100px;
+}
+
+section .about .about__content p{
+  padding: 50px;
+  margin: 0px 50px;
+  font-size: 20px;
+}
+
+
+.section__2__about .section__2__imgs{
+  width: 100%;
+  height: 320px;
+}
+
+.section__2__about .section__2__imgs img{
+  width: 100%;
+  height: 100%;
+}
+.section__2__about .layer{
+  height: 100%;
+  border-left: 5px solid #FFC100;
+}
+.section__2__about .section__2__content h2{
+  text-shadow: 2px 2px 1px #00000013;
+  color:#FFC100
+}
+.section__2__about .section__2__content p{
+  font-size: 18px;
+}
+
+
+/* section 3d printing */
+section ._3d_printing{
+  background-color: #e8e8e8;
+}
+section ._3d_printing .head h2{
+  top: 25%;
+  right: 35%;
+  font-size: 60px;
+}
+section ._3d_printing .head .head__layer{
+  color: #0000001b;
+  font-size: 100px;
+}
+section ._3d_printing .start__card{
+  color: #FFC100;
+  font-size: 50px;
+}
+section ._3d_printing .item{
+  position: relative;
+  overflow: hidden;
+}
+section ._3d_printing .card{
+  box-shadow: 2px 2px 5px #000;
+}
+section ._3d_printing .item img{
+  width: 100%;
+  height: 100%;
+  transition:  transform 0.7s;
+}
+section ._3d_printing .item .layer{
+  background-color: rgba(0, 0, 0, 0.61);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+section ._3d_printing .item:hover .layer {
+  opacity: 1;
+}
+section ._3d_printing .item:hover img{
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+/* ************ media query ********* */
+@media (max-width: 618px) {
+  .yellow__Box {
+    width: 20vw;
+    height: 65vh;
+  }
+  .logo__text{
+    top: 45%;
+  }
+
+  header .letter_7 , header .letter_A{
+    font-size: 80px;
+  }
+
+  header .letter_O{
+    font-size: 60PX;
+  }
+  header .letter__space__none{
+    letter-spacing: -16px;
+  }
+  header .content{
+    padding-top: 30px;
+  }
+  header .energy{
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-left: 40px;
+  }
+  header .font__size{
+    font-size: 13px;
+  }
+  header .content__h2{
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  header{
+    height: 65vh ;
+    padding-left: 20px !important;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+
+  }
+  .yellow__Box {
+    width: 25vw !important;
+    height: 45vh;
+  }
+  .logo__text{
+    top: 37% !important;
+    left: 45% !important;
+  }
+
+  header .letter_7 , header .letter_A{
+    font-size: 75px !important;
+  }
+
+  header .letter_O{
+    font-size: 50PX !important;
+  }
+  header .letter__space__none{
+    letter-spacing: -20px;
+  }
+  header .energy{
+    font-size: 35px !important;
+    letter-spacing: 17px !important;
+    margin-left: 10px !important;
+  }
+  header .font__size{
+    font-size: 15px;
+    margin-right: 0px !important;
+    padding-right: 0 !important;
+    margin-left: -40px !important;
+  }
+  header .content__h2{
+    margin-top: 20px !important;
+    margin-bottom: 50px;
+  }
+
+  /* section about */
+  section .about .about__img .img_layer{
+    padding: 10px;
+    width: 80%;
+    top: 50%;
+    font-size: 14px;
+  }
+  section .about .about__img .img_layer h3{
+    font-size: 16px;
+  }
+  section .about .about__content .head h2{
+    top: 22%;
+    right: 28%;
+    font-size: 40px;
+  }
+  section .about .about__content .head .head__layer{
+    color: #0000001b;
+    font-size: 60px;
+  }
+
+  section .about .about__content p{
+    padding: 0px;
+    margin: 0px 30px;
+    font-size: 18px;
+  }
+
+  /* section 3d printing */
+  section ._3d_printing .head h2{
+    top: 45%;
+    right: 20%;
+    font-size: 38px;
+  }
+  section ._3d_printing .head .head__layer{
+    padding-top: 40px;
+    font-size: 60px;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+  .yellow__Box {
+    width: 23vw;
+  }
+  .logo__text{
+    top: 40%;
+  }
+  header .letter_7 , header .letter_A{
+    font-size: 120px;
+  }
+
+  header .letter_O{
+    font-size: 80px;
+  }
+
+  header .letter__space__none{
+    letter-spacing: -16px;
+  }
+  header .content{
+    padding-top: 50px;
+  }
+  header .energy{
+    font-size: 60px;
+    letter-spacing: 15px;
+    margin-left: 50px;
+  }
+  header .content__h2{
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .yellow__Box {
+    width: 19vw;
+  }
+  .logo__text{
+    top: 40%;
+    left: 70%;
+  }
+
+  header .energy{
+    margin-left: 50px;
+  }
+
+
+  /* section about */
+  section .about .about__img .img_layer{
+    padding: 20px;
+    width: 80%;
+    top: 50%;
+    font-size: 16px;
+  }
+  section .about .about__img .img_layer h3{
+    font-size: 20px;
+  }
+  section .about .about__content .head h2{
+    font-size: 50px;
+  }
+  section .about .about__content .head .head__layer{
+    font-size: 70px;
+  }
+
+}
+
+
+
+
+
+
+
+
+

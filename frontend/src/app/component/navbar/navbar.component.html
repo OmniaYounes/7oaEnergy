@@ -1,0 +1,59 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid px-4">
+    <div class="image_logo">
+      <img src="./logo/logo.png" alt="7OA Energy logo">
+    </div>
+    <button
+      class="navbar-toggler custom-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasRight"
+      aria-controls="offcanvasRight"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header pb-4">
+          <img src="./logo/logo.png" alt="7OA Energy logo">
+        <button
+          type="button"
+          class="btn-close btn-close-white text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <ul class="navbar-nav ms-auto me-5 pe-5 mb-2 mb-lg-0">
+        <li class="nav-item px-4 py-1">
+          <a class="nav-link active" routerLink="/home" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item px-4 py-1">
+          <a class="nav-link active" routerLink="/about" aria-current="page" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item px-4 py-1">
+          <a class="nav-link active" routerLink="/prints" aria-current="page" href="#">3D PRINTING</a>
+        </li>
+        <li class="nav-item px-4 py-1">
+          <a class="nav-link active" routerLink="/printers" aria-current="page" href="#">PRINTERS</a>
+        </li>
+        <li class="nav-item px-4 py-1">
+          <a class="nav-link active" routerLink="/contact" aria-current="page" href="#">CONTACT US</a>
+        </li>
+        <li *ngIf="displayMenu"
+        class="nav-item px-4 py-1">
+          <a class="nav-link active" *ngIf="displayAdminPage" routerLink="/dashboard" aria-current="page" href="#">DASH BOARD</a>
+        </li>
+        <li *ngIf="_AuthService.isLoggedIn()"
+        class="nav-item px-4 py-1">
+          <a class="nav-link active" (click)="logOut()" aria-current="page" href="#">LOG OUT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

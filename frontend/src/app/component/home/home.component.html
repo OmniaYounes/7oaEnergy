@@ -1,0 +1,126 @@
+<div class="container-fliud">
+  <header
+    class="bg-black d-flex justify-content-center align-items-center flex-wrap p-2"
+  >
+    <div class="logo__header pe-xl-5 me-xl-4">
+      <div class="yellow__Box">
+        <div class="logo__text text-white">
+          <h1>
+            <span class="letter__space__none">
+              <span class="letter_7">7</span>
+              <span class="letter_O">O</span>
+              <span class="letter_A">A</span>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-white content pt-xl-5 mt-5">
+      <span class="energy"> ENERGY </span>
+      <div class="content__h2">
+        <h2 class="font__size pe-xl-5 me-5">
+          Designing power bank with high quality
+        </h2>
+        <h2 class="font__size pe-xl-5 me-5">
+          Manufacturing <span class="spacial__txt">3D Printing</span> machines
+        </h2>
+        <h2 class="font__size pe-xl-5 me-5">
+          Designing any <span class="spacial__txt">3D Printing</span> model
+        </h2>
+        <h2 class="font__size pe-xl-5 me-5">
+          Printing any <span class="spacial__txt">3D Printing</span> model
+        </h2>
+        <h2 class="font__size pe-xl-5 me-5">Designing an a special cover</h2>
+      </div>
+    </div>
+  </header>
+
+  <!-- about section -->
+  <section>
+    <div class="about">
+      <div class="row" *ngFor="let about of AllAboutHome">
+        <div class="col-md-6">
+          <div class="about__img">
+            <img [src]="getImageAboutHomePath(about.image)" alt="3D Printing" />
+            <div class="img_layer">
+              <h3>{{about.headerSideLayer}}</h3>
+              {{about.sideLayer}}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-md-5">
+          <div class="about__content">
+            <div class="head text-center position-relative">
+              <div class="head__layer">about us</div>
+              <h2 class="text-black position-absolute">ABOUT US</h2>
+            </div>
+            <p class="p-md-3">
+              {{about.desc}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services Section -->
+  <section>
+    <div class="_3d_printing bg-light py-5">
+      <div class="container-md m-auto">
+        <div class="head text-center position-relative">
+          <div class="head__layer">services</div>
+          <h2 class="position-absolute">SERVICES</h2>
+        </div>
+        <div
+        class="row section__2__about p-md-2 p-1 mt-5 rounded-2 scroll-element show"
+        *ngFor="let service of AllServices"
+        >
+        <div class="col-md-6 col-9 px-md-5 px-2 py-md-4 py-1">
+          <div class="layer px-md-3 px-2">
+            <div class="section__2__content">
+              <h2 class="pb-md-4 pb-1">{{service.title}}</h2>
+              <p class="ps-2">
+                {{service.desc}}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-3">
+          <div class="section__2__imgs">
+            <img [src]="getImageServicesPath(service.image)"
+              class="rounded-3"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3d printing section -->
+  <section>
+    <div class="_3d_printing py-5">
+      <div class="container-md m-auto">
+        <div class="head text-center position-relative">
+          <div class="head__layer">3d printing</div>
+          <h2 class="position-absolute">3D PRINTING</h2>
+        </div>
+        <div class="row gy-md-4">
+          <div class="col-md-2 p-3" *ngFor="let printing of AllPrintings">
+            <div class="card p-2 rounded-4">
+              <div class="item rounded-4">
+                <img [src]="getImagePrintingPath(printing.image)" class="rounded-4" alt="3d_printing">
+                <div class="layer rounded-4">
+                  <div class="name fs-5 text-white">
+                    {{printing.name}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
